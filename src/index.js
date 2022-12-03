@@ -11,7 +11,7 @@ const App = () => {
     const dispatch = useDispatch();
     useLayoutEffect(() => {
         initAxios(dispatch);
-    }, []);
+    });
     return useRoutes(routes)
 }
 

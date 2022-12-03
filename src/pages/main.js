@@ -1,10 +1,9 @@
 import React from "react";
 
-export default () => {
-
+const Main = () => {
     return (
-        <div>aaa</div>
+        <h1>Hello World</h1>
     );
-
 };
 
+export default Main;
