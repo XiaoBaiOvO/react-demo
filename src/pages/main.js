@@ -1,8 +1,9 @@
 import React from "react";
+import ListModule from "./list"
 
 const Main = () => {
     return (
-        <h1>Hello World</h1>
+        <ListModule/>
     );
 };
 
